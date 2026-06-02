@@ -1,0 +1,5 @@
+strategy,mean_latency_ms,std_latency_ms,relative_to_classical_pct,paired_p_value,security_score
+classical,105.506,111.922,0.00,1.000000,22.51
+pqc_only,112.759,117.435,6.87,0.000000,90.51
+static_hybrid,111.582,116.545,5.76,0.000000,80.51
+ml_optimized,108.157,114.177,2.51,0.000000,85.31

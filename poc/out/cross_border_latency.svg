@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="#f7f5ef"/>
+<text x="550.0" y="34" text-anchor="middle" fill="#1e1b18" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Cross-Border Settlement Latency</text>
+<text x="550.0" y="56" text-anchor="middle" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">Latency, packet loss, and bandwidth profiles reflect the paper's Mininet + tc setup</text>
+<line x1="80" y1="540" x2="1020" y2="540" stroke="#2f2a24" stroke-width="2"/>
+<line x1="80" y1="540" x2="80" y2="80" stroke="#2f2a24" stroke-width="2"/>
+<line x1="80" y1="540.0" x2="1020" y2="540.0" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="544.0" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">0</text>
+<line x1="80" y1="448.0" x2="1020" y2="448.0" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="452.0" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">90</text>
+<line x1="80" y1="356.0" x2="1020" y2="356.0" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="360.0" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">180</text>
+<line x1="80" y1="264.0" x2="1020" y2="264.0" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="268.0" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">270</text>
+<line x1="80" y1="172.00000000000006" x2="1020" y2="172.00000000000006" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="176.00000000000006" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">360</text>
+<line x1="80" y1="80.0" x2="1020" y2="80.0" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="84.0" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">451</text>
+<text x="550.0" y="602" text-anchor="middle" fill="#5c544c" font-family="Arial, sans-serif" font-size="12" font-weight="normal">Emulated network latency (ms)</text>
+<text x="22" y="310.0" text-anchor="middle" fill="#5c544c" font-family="Arial, sans-serif" font-size="12" font-weight="normal">Settlement latency (ms)</text>
+<rect x="770" y="44" width="16" height="16" rx="4" ry="4" fill="#708fb8" stroke="#708fb8" stroke-width="1.2"/>
+<text x="792" y="57" text-anchor="start" fill="#3c362f" font-family="Arial, sans-serif" font-size="11" font-weight="normal">Classical</text>
+<circle cx="80.0" cy="395.0221550650358" r="4" fill="#708fb8" stroke="#fff" stroke-width="1"/>
+<circle cx="315.0" cy="347.8533069242235" r="4" fill="#708fb8" stroke="#fff" stroke-width="1"/>
+<circle cx="550.0" cy="300.071876340024" r="4" fill="#708fb8" stroke="#fff" stroke-width="1"/>
+<circle cx="785.0" cy="252.59673697751816" r="4" fill="#708fb8" stroke="#fff" stroke-width="1"/>
+<circle cx="1020.0" cy="205.7341800583995" r="4" fill="#708fb8" stroke="#fff" stroke-width="1"/>
+<polyline fill="none" stroke="#708fb8" stroke-width="2.5" points="80.0,395.0221550650358 315.0,347.8533069242235 550.0,300.071876340024 785.0,252.59673697751816 1020.0,205.7341800583995"/>
+<rect x="920" y="44" width="16" height="16" rx="4" ry="4" fill="#8f6b3f" stroke="#8f6b3f" stroke-width="1.2"/>
+<text x="942" y="57" text-anchor="start" fill="#3c362f" font-family="Arial, sans-serif" font-size="11" font-weight="normal">Static hybrid</text>
+<circle cx="80.0" cy="368.76278765850566" r="4" fill="#8f6b3f" stroke="#fff" stroke-width="1"/>
+<circle cx="315.0" cy="312.2091764850019" r="4" fill="#8f6b3f" stroke="#fff" stroke-width="1"/>
+<circle cx="550.0" cy="254.3323872337819" r="4" fill="#8f6b3f" stroke="#fff" stroke-width="1"/>
+<circle cx="785.0" cy="196.81089579972627" r="4" fill="#8f6b3f" stroke="#fff" stroke-width="1"/>
+<circle cx="1020.0" cy="139.99999999999994" r="4" fill="#8f6b3f" stroke="#fff" stroke-width="1"/>
+<polyline fill="none" stroke="#8f6b3f" stroke-width="2.5" points="80.0,368.76278765850566 315.0,312.2091764850019 550.0,254.3323872337819 785.0,196.81089579972627 1020.0,139.99999999999994"/>
+<rect x="1070" y="44" width="16" height="16" rx="4" ry="4" fill="#4e8a63" stroke="#4e8a63" stroke-width="1.2"/>
+<text x="1092" y="57" text-anchor="start" fill="#3c362f" font-family="Arial, sans-serif" font-size="11" font-weight="normal">ML-optimized</text>
+<circle cx="80.0" cy="378.48242909358214" r="4" fill="#4e8a63" stroke="#fff" stroke-width="1"/>
+<circle cx="315.0" cy="325.37153125191423" r="4" fill="#4e8a63" stroke="#fff" stroke-width="1"/>
+<circle cx="550.0" cy="271.1784044269291" r="4" fill="#4e8a63" stroke="#fff" stroke-width="1"/>
+<circle cx="785.0" cy="217.3221979458068" r="4" fill="#4e8a63" stroke="#fff" stroke-width="1"/>
+<circle cx="1020.0" cy="164.13983215241046" r="4" fill="#4e8a63" stroke="#fff" stroke-width="1"/>
+<polyline fill="none" stroke="#4e8a63" stroke-width="2.5" points="80.0,378.48242909358214 315.0,325.37153125191423 550.0,271.1784044269291 785.0,217.3221979458068 1020.0,164.13983215241046"/>
+<text x="80.0" y="568" text-anchor="middle" fill="#1e1b18" font-family="Arial, sans-serif" font-size="11" font-weight="normal">100</text>
+<line x1="80.0" y1="540" x2="80.0" y2="546" stroke="#2f2a24" stroke-width="1"/>
+<text x="315.0" y="568" text-anchor="middle" fill="#1e1b18" font-family="Arial, sans-serif" font-size="11" font-weight="normal">150</text>
+<line x1="315.0" y1="540" x2="315.0" y2="546" stroke="#2f2a24" stroke-width="1"/>
+<text x="550.0" y="568" text-anchor="middle" fill="#1e1b18" font-family="Arial, sans-serif" font-size="11" font-weight="normal">200</text>
+<line x1="550.0" y1="540" x2="550.0" y2="546" stroke="#2f2a24" stroke-width="1"/>
+<text x="785.0" y="568" text-anchor="middle" fill="#1e1b18" font-family="Arial, sans-serif" font-size="11" font-weight="normal">250</text>
+<line x1="785.0" y1="540" x2="785.0" y2="546" stroke="#2f2a24" stroke-width="1"/>
+<text x="1020.0" y="568" text-anchor="middle" fill="#1e1b18" font-family="Arial, sans-serif" font-size="11" font-weight="normal">300</text>
+<line x1="1020.0" y1="540" x2="1020.0" y2="546" stroke="#2f2a24" stroke-width="1"/>
+</svg>

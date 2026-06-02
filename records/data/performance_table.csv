@@ -1,0 +1,5 @@
+operation,classical_value,hybrid_value,static_overhead_pct,paper_hybrid_overhead_pct,paper_ml_optimized_pct,derived_optimized_value,paper_model_prediction,prediction_delta
+Key Generation,0.8200,1.1900,45.12,45.10,34.20,1.1004,1.1600,0.0596
+Encapsulation,0.4100,0.6800,65.85,65.90,43.90,0.5900,0.6700,0.0800
+Signing,1.4800,2.7600,86.49,86.50,61.80,2.3946,2.7100,0.3154
+End-to-End Wholesale TPS,1180.0000,965.0000,18.22,18.20,11.80,1040.7600,1015.0000,-25.7600

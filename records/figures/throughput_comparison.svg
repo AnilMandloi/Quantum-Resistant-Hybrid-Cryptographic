@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<rect width="100%" height="100%" fill="#f7f5ef"/>
+<text x="550.0" y="34" text-anchor="middle" fill="#1e1b18" font-family="Arial, sans-serif" font-size="20" font-weight="bold">QR-HybridFin Wholesale Throughput</text>
+<text x="550.0" y="56" text-anchor="middle" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">Batch service model calibrated to the paper's 1180 / 965 / 1015 TPS values</text>
+<line x1="80" y1="540" x2="1020" y2="540" stroke="#2f2a24" stroke-width="2"/>
+<line x1="80" y1="540" x2="80" y2="80" stroke="#2f2a24" stroke-width="2"/>
+<line x1="80" y1="540.0" x2="1020" y2="540.0" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="544.0" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">0</text>
+<line x1="80" y1="448.0" x2="1020" y2="448.0" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="452.0" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">271</text>
+<line x1="80" y1="356.0" x2="1020" y2="356.0" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="360.0" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">543</text>
+<line x1="80" y1="263.99999999999994" x2="1020" y2="263.99999999999994" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="267.99999999999994" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">814</text>
+<line x1="80" y1="172.00000000000006" x2="1020" y2="172.00000000000006" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="176.00000000000006" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">1086</text>
+<line x1="80" y1="80.0" x2="1020" y2="80.0" stroke="#d9d0c3" stroke-width="1"/>
+<text x="68" y="84.0" text-anchor="end" fill="#5c544c" font-family="Arial, sans-serif" font-size="11" font-weight="normal">1357</text>
+<text x="22" y="310.0" text-anchor="middle" fill="#5c544c" font-family="Arial, sans-serif" font-size="12" font-weight="normal">Transactions per second</text>
+<rect x="770" y="44" width="16" height="16" rx="4" ry="4" fill="#708fb8" stroke="#708fb8" stroke-width="1.2"/>
+<text x="792" y="57" text-anchor="start" fill="#3c362f" font-family="Arial, sans-serif" font-size="11" font-weight="normal">Classical</text>
+<rect x="194.30399999999995" y="140.0" width="206.8" height="400.0" rx="2" ry="2" fill="#708fb8" stroke="#708fb8" stroke-width="1.2"/>
+<rect x="900" y="44" width="16" height="16" rx="4" ry="4" fill="#8f6b3f" stroke="#8f6b3f" stroke-width="1.2"/>
+<text x="922" y="57" text-anchor="start" fill="#3c362f" font-family="Arial, sans-serif" font-size="11" font-weight="normal">Hybrid PQC</text>
+<rect x="446.6" y="212.88135593220335" width="206.8" height="327.11864406779665" rx="2" ry="2" fill="#8f6b3f" stroke="#8f6b3f" stroke-width="1.2"/>
+<rect x="1030" y="44" width="16" height="16" rx="4" ry="4" fill="#4e8a63" stroke="#4e8a63" stroke-width="1.2"/>
+<text x="1052" y="57" text-anchor="start" fill="#3c362f" font-family="Arial, sans-serif" font-size="11" font-weight="normal">ML-optimized</text>
+<rect x="698.8960000000001" y="195.93220338983053" width="206.8" height="344.06779661016947" rx="2" ry="2" fill="#4e8a63" stroke="#4e8a63" stroke-width="1.2"/>
+<text x="550.0" y="568" text-anchor="middle" fill="#1e1b18" font-family="Arial, sans-serif" font-size="11" font-weight="normal">End-to-End Wholesale TPS</text>
+<line x1="550.0" y1="540" x2="550.0" y2="546" stroke="#2f2a24" stroke-width="1"/>
+</svg>

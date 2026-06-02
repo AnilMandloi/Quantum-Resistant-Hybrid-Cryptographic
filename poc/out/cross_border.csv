@@ -1,0 +1,6 @@
+network_latency_ms,packet_loss_pct,bandwidth_mbps,classical_settlement_ms,static_hybrid_settlement_ms,ml_optimized_settlement_ms
+100.0,0.5,100.0,142.0,167.72,158.20000000000002
+150.0,0.8,80.0,188.2,223.112,210.22
+200.0,1.2,50.0,235.0,279.79999999999995,263.3
+250.0,1.6,25.0,281.5,336.14,316.05
+300.0,2.0,10.0,327.4,391.78399999999993,368.14

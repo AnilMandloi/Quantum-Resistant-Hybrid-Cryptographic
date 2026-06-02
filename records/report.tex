@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\title{QR-HybridFin Simulation Report}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+\begin{abstract}
+This report condenses the QR-HybridFin methodology simulator into a manuscript-ready LaTeX source. The model follows the paper's layered architecture, adaptive cryptographic selection, and batch throughput calibration for CBDC and cross-border settlement systems.
+\end{abstract}
+\section*{Methodology}
+The simulator implements a transaction flow across the cryptographic, blockchain, ML-agility, and network layers. Each transaction is assigned a strategy by a simple policy that reacts to threat level, load, and cross-border status. The latency model decomposes the end-to-end delay into per-layer contributions, queueing, and agility adjustment terms, then aggregates them into transaction summaries and ablation tables.
+\section*{Key Results}
+\begin{table}[h]
+\centering
+\begin{tabular}{@{}p{0.62\linewidth}r@{}}
+\toprule
+Metric & Value \\
+\midrule
+Adaptive trace mean latency & 106.258 ms \\
+Adaptive trace p95 latency & 285.982 ms \\
+Adaptive classical selections & 1 \\
+Adaptive static-hybrid selections & 5587 \\
+Adaptive ML-optimized selections & 4412 \\
+Best throughput at 50 nodes & 1012.64 TPS \\
+Worst cross-border mean settlement & 242.30 ms \\
+Classical ablation mean latency & 105.506 ms \\
+Static-hybrid ablation mean latency & 111.582 ms \\
+ML-optimized ablation mean latency & 108.157 ms \\
+\bottomrule
+\end{tabular}
+\end{table}
+\section*{Figure Index}
+\begin{itemize}
+\item \texttt{figures/architecture\_diagram.svg}
+\item \texttt{figures/latency\_comparison.svg}
+\item \texttt{figures/throughput\_comparison.svg}
+\item \texttt{figures/throughput\_scaling.svg}
+\item \texttt{figures/latency\_vs\_payload.svg}
+\item \texttt{figures/cross\_border\_latency.svg}
+\item \texttt{figures/quantum\_risk.svg}
+\end{itemize}
+\section*{Appendix Input}
+\input{appendix_body.tex}
+\end{document}

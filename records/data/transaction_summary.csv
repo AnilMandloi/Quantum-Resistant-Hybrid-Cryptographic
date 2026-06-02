@@ -1,0 +1,2 @@
+n,mean_latency_ms,std_latency_ms,p95_latency_ms,min_latency_ms,max_latency_ms,classical_selected,static_hybrid_selected,ml_optimized_selected,strategy
+10000,106.258,112.955,285.982,6.698,335.677,1,5587,4412,adaptive

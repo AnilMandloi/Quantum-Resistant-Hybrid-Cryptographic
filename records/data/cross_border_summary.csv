@@ -1,0 +1,4 @@
+strategy,mean_settlement_ms,std_settlement_ms,p95_settlement_ms,min_network_latency_ms,max_network_latency_ms,network_latency_profile_ms
+classical,230.91,58.91,320.59,138.92,294.41,"294.4,168.3,138.9,220.0,268.2,151.2"
+static_hybrid,242.30,58.91,331.98,138.92,294.41,"294.4,168.3,138.9,220.0,268.2,151.2"
+ml_optimized,236.12,58.92,325.77,138.92,294.41,"294.4,168.3,138.9,220.0,268.2,151.2"
